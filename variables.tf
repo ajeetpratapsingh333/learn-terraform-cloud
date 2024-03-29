@@ -11,9 +11,9 @@ variable "instancetype" {
 variable "tags" {
   type = map(string)
   default = {
-    "project" =  "test",
-    "subproject" = "test",
-    "env" = "dev",
+    "project" =  "infra",
+    "subproject" = "infra",
+    "env" = "nonprod",
     "subenv" = "dev"
   }
 }
@@ -23,4 +23,5 @@ variable "aws" {
   vpcid = "vpc-054be7e773d4734fe"
   amiid = "ami-075491ab3df78dd2d"
   subnet = "subnet-0f7658858b7d17e6d"
+  sgid = "sg-0f0850ac7d25e125f"
 }
