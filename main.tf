@@ -32,3 +32,4 @@ resource "aws_instance" "app_server" {
       tags = var.tags
       volume_type  = "gp3"
    }
+}
