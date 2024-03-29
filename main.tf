@@ -24,7 +24,7 @@ resource "aws_instance" "app_server" {
   ami           = var.aws.ami
   instance_type = var.instancetype
   tags = var.tags
-  vpc = var.aws.vpc
+  
   security_groups = [ var.aws.sgid ]
   subnet_id = var.aws.subnet
   root_block_device {
