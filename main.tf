@@ -31,7 +31,6 @@ resource "aws_instance" "app_server" {
   subnet_id = var.aws.subnet
   root_block_device {
 
-      tags = var.tags
       volume_type  = "gp3"
    }
 }
