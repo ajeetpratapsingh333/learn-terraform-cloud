@@ -25,6 +25,7 @@ resource "aws_instance" "app_server" {
   instance_type = var.instancetype
   tags = var.tags
   tags_all = var.tags
+  volume_tags = var.tags
   
   security_groups = [ var.aws.sgid ]
   subnet_id = var.aws.subnet
