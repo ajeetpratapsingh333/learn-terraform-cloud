@@ -5,7 +5,7 @@ variable "region" {
 
 variable "instancetype" {
   description = "Type of VM instance to provision"
-  default     = "t2.micro"
+  default     = "t3.large"
 }
 
 variable "tags" {
@@ -24,7 +24,7 @@ variable "aws" {
   default = {
       vpcid = "vpc-054be7e773d4734fe"
       ami = "ami-075491ab3df78dd2d"
-      subnet = "subnet-0f7658858b7d17e6d"
+      subnet = "subnet-0e842f0bcf40ff5e8"
       sgid = "sg-0f0850ac7d25e125f"
     }
 }
