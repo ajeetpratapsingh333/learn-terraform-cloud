@@ -14,7 +14,8 @@ variable "tags" {
     "project" =  "infra",
     "subproject" = "infra",
     "env" = "nonprod",
-    "subenv" = "dev"
+    "subenv" = "dev",
+    "fy" = "fy23"
   }
 }
 
