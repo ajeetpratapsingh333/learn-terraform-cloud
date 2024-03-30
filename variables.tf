@@ -5,7 +5,7 @@ variable "region" {
 
 variable "instancetype" {
   description = "Type of VM instance to provision"
-  default     = "t3.large"
+  default     = "t2.micro"
 }
 
 variable "tags" {
