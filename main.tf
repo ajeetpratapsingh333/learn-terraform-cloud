@@ -12,7 +12,7 @@ terraform {
 
 #  filter {
  #   name   = "image-id"
- #   values = ["ami-0277155c3f0ab2930"]
+ #   values = ["ami-0b29d5ce39c9e44e8"]
  # }
 #}
 
